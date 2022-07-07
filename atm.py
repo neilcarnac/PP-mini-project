@@ -3,10 +3,14 @@ import time
 
 from gridfs import Database
 
-current_balance = 1000
-data = [ ("Test1", "123"),
-         ("Test2", "000")
+current_balance = 100000
+
+
+data = [ ("Aditya","16010121028"),
+         ("Neil","16010121029"),
+         ("Pratham","16010121047")
         ]
+
 
 class SampleApp(tk.Tk):
 
